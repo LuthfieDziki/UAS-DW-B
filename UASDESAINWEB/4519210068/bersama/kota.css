@@ -1,0 +1,30 @@
+.word{
+	font-size: 20px;
+	text-align: center;
+	padding-bottom: 30px;
+}
+.card-deck{
+    margin-top: 10px;
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-gap: .5rem;
+}
+
+.card-body{
+	text-align: center;
+}
+#soon{
+	padding-top: 50px;
+}
+.card:hover{
+	transform: scale(1.1);
+	transition: 0.2s;
+	border-radius: 10px;
+    border:2px solid black;
+}
+.container .card .row .card-img{
+	padding-top:60px;
+	padding-left: 8px;
+	padding-right:8px;
+}
